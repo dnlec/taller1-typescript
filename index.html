@@ -8,22 +8,33 @@
 </head>
 
 <body>
-    <div class="container">
-        <table class="table table-striped">
-            <thead class="thead">
-                <tr>
-                    <th>#</th>
-                    <th>Name</th>
-                    <th>Channel</th>
-                    <th>Seasons</th>
-                </tr>
-            </thead>
-            <tbody id="series"></tbody>
-        </table>
-        <div class="row">
-            <div>Seasons average: </div>
-            <div id="seasons-average"></div>
+    <header>
+        <div style="background-color: #50a1b5; height: 50px;">
+            <strong>TV Series</strong>
         </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <table class="table table-striped">
+                    <thead class="thead">
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Channel</th>
+                            <th>Seasons</th>
+                        </tr>
+                    </thead>
+                    <tbody id="series"></tbody>
+                </table>
+                <div class="row">
+                    <div>Seasons average: </div>
+                    <div id="seasons-average"></div>
+                </div>
+            </div>
+        </div>
+        
     </div>
 
     <script type="module" src="./scripts/main.js"></script>
